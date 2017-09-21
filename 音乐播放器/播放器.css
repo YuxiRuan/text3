@@ -1,0 +1,241 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-08-30 23:26:22
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-09-03 11:48:25
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 397507 */
+  src: url('http://at.alicdn.com/t/font_397507_avts9xrq29aoflxr.eot');
+  src: url('http://at.alicdn.com/t/font_397507_avts9xrq29aoflxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_397507_avts9xrq29aoflxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_397507_avts9xrq29aoflxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_397507_avts9xrq29aoflxr.svg#iconfont') format('svg');
+}
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	text-decoration: none;
+}
+main{
+	width: 100%;
+	height: 600px;
+	background: url('images/4.jpg') no-repeat center center;
+	overflow: hidden;
+}
+.song{
+	width: 80%;
+	height: 550px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	margin:10px auto 50px; 
+}
+.pic{
+	width: 150px;
+	height: 150px;
+	margin: 80px;
+	float: left;
+	position: relative;
+}
+.pic>li{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pic>li>img{
+	width: 150px;
+	height: 150px;
+	border-radius: 5px;
+}
+.geci{
+	width: 500px;
+	height: 550px;
+	float: left;
+	margin-right: 10px;
+	border-left: 1px solid #eee;
+}
+.pinlun{
+	width: 250px;
+	height: 550px;
+	float: left;
+	border-left: 1px solid #eee;
+	position: relative;
+}
+.playbox{
+	width: 100%;
+	height: 70px;
+	background:	#DBDBDB;
+
+}
+.before,.play,.next{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	float: left;
+	margin-top:  15px;
+	margin-left: 5px;
+	font-family: 'iconfont';
+	font-size: 30px;
+}
+.stop{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	background: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.play{
+	position: relative;
+	display: block;
+}
+.songname{
+	width: 90%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+.text{
+	width: 90%;
+	height: 450px;
+/* 	background: pink; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.text>li{
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.text>li:first-child{
+	margin-top: 20px;
+}
+.before{
+	margin-left: 60px;
+}
+.jindu{
+	width: 600px;
+	height: 5px;
+	margin-top: 35px;
+	border-radius: 5px;
+	float: left;
+	background: #666;
+}
+.jin{
+	width: 0;
+	height: 5px;
+	background: red;
+}
+.box{
+	width: 800px;
+	height: 70px;
+	float: left;
+	margin-left: 30px;
+}
+.pz{
+	width: 30px;
+	height: 20px;
+	border: 1px solid red;
+	float: left;
+	margin-left: 22px;
+	margin-top: 28px;
+	color: red;
+	text-align: center;
+}
+.time{
+	width: 90px;
+	height: 20px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.other{
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	float: right;
+	margin-right: 80px;
+}
+.sounds{
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 22px;
+	margin-right: 40px;
+	position: relative;
+	font-family: 'iconfont';
+	font-size: 22px;
+}
+.sound{
+	width: 25px;
+	height: 80px;
+	position: absolute;
+	top: -80px;
+	display: none;
+}
+.voice{
+	width: 7px;
+	height: 80px;
+	margin: 0 auto;
+	background: red;
+	border-radius: 5px;
+	position: relative;
+}
+.singer{
+	width: 90%;
+	height: 10px;
+	text-align: center;
+}
+.vo{
+	width: 7px;
+	height: 0px;
+	background: #eee;
+	position: absolute;
+	top: 0
+}
+.yuan{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: blueviolet;
+	position: absolute;
+	left: -2px;
+	top: 0px;
+}
+h4{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+textarea{
+	width: 220px;
+	height: 90px;
+	margin-left: 10px;
+	resize: none;
+	outline: none;
+	font-size: 14px;
+	padding:10px;
+	border-radius: 3px;
+}
+.tips{
+	position: absolute;
+	top: 130px;
+	right: 0;
+	font-size: 12px;
+}
+.tips>span{
+	color: red;
+}
+::-webkit-input-placeholder{
+		color: #eee;
+}
+button{
+	margin-left: 215px;
+}
+

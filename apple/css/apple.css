@@ -1,0 +1,395 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-07-24 18:40:03
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-07-26 08:50:43
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 363543 */
+  src: url('http://at.alicdn.com/t/font_h6seufbcyc6gk3xr.eot');
+  src: url('http://at.alicdn.com/t/font_h6seufbcyc6gk3xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_h6seufbcyc6gk3xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_h6seufbcyc6gk3xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_h6seufbcyc6gk3xr.svg#iconfont') format('svg');
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.head-box{
+	width: 100%;
+	height: 40px;
+	background:#444; 
+}
+.head-box span{
+	font-size: 14px;
+	color:#9ea8aa ;
+	float: right;
+	margin-right: 217px;
+	line-height: 40px;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background: #303030;
+}
+.big{
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background: #303030;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.big li a{
+	font-size: 16px;
+	line-height: 40px;
+	color:white;
+	 font-family: 'iconfont';
+}
+.big li a:hover{
+	color: #444;
+	opacity: 0.5;
+}
+.small{
+	max-width: 768px;
+	height: 40px;
+	background: #303030;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	display: none;
+
+}
+.small li a{
+	color:white;
+	font-size: 16px;
+	line-height: 40px;
+	color:white;
+	font-family: 'iconfont';
+	padding: 4px;
+
+}
+.small li a:hover{
+	color: #444;
+	opacity: 0.5;
+}
+@media screen and (max-width: 769px) {
+	.big{
+		display: none;
+	}
+	.small{
+		display: block;
+		display: flex;
+	}
+}
+section{
+	width: 100%;
+	height: auto;
+/* 	overflow: hidden; */
+}
+.banner{
+	width: 100%;
+	height: 540px;
+	background: url('../img/iphone_7_medium.jpg') no-repeat center center;
+	background-size: 100% 540px;
+	border-bottom: 1px solid #fff;
+	position: relative;
+}
+.words{
+	width: 100%;
+	height: 26px;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top: 90px;
+
+	
+}
+h2{
+	width: 100%;
+	height: 36px;
+	font-size: 36px;
+	color: white;
+	position: absolute;
+	font-family: "苹方";
+	text-align: center;
+	top: 120px;
+
+}
+.banner ul li a{
+	width: 62px;
+	height: 2px;
+	background: #dcdcdc;
+	float: left;
+	margin-right: 14px;
+	display: block;
+
+}
+.banner ul{
+	width: 320px;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 500px;
+
+}
+
+.box{
+	width: 100%;
+   	height: auto;
+   	overflow: hidden;
+    		
+ }
+
+.box li{
+    		width: 25%;
+    		height:  268px;
+    		background: red;
+    		border-right: 1px solid #fff;
+    		border-bottom: 1px solid #fff;
+    		float: left;
+    		box-sizing: border-box;
+
+ }
+
+
+ .box li:nth-child(1){
+ 	position: relative;
+ 	background: url('../img/apple_pay_medium.jpg') no-repeat center bottom;
+ 	/* background-size: cover; */
+ }
+  .box li:nth-child(2){
+  	position: relative;
+ 	background: url('../img/imac_medium.jpg') no-repeat center bottom ;
+ 	/* 	background-size: cover; */
+ }
+  .box li:nth-child(3){
+  	position: relative;
+ 	background: url('../img/summer_casual_medium.jpg') no-repeat center bottom ;
+ 	/* background-size: cover; */
+ }
+  .box li:nth-child(4){
+  	position: relative;
+ 	background: url('../img/iphone_upgrade_large.png') no-repeat center bottom ;
+ 	/* 	background-size: cover; */
+ }
+ .box li:last-child{
+    		border-right: none;
+    	}
+ @media screen and (max-width: 1068px) {
+ .box li{
+    		width: 50%;
+    
+
+ }
+ .box li:nth-child(2n){
+    border-right: 0;
+ }
+ }
+@media screen and (max-width: 769px) {
+.box li{
+    	width: 100%;
+    			
+}
+.box li{
+	border-right: 0;
+	
+
+ }
+    		
+}
+
+h4{
+	width: 100%;
+	font-size: 18px;
+	position: absolute;
+	text-align: center;
+	font-family: 'iconfont';
+	top: 40px;
+
+}
+.box div{
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	top: 70px;
+}
+.box a{
+
+	height:  268px;
+	color: black;
+	display: block;
+}
+ footer{
+
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	
+}
+.Box{
+	max-width: 1000px;
+	height: 50px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 11px;
+	line-height: 50px;
+	color: #959b98;
+	margin: 0 auto;
+}
+.Box2{
+	max-width:1000px;
+	height: auto;
+	background: #f2f2f2;
+	margin: 0 auto;
+	clear: both;
+	
+}
+
+ 
+.sever{
+	max-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.
+.sever>li{
+	width: 20%;
+	height: auto;
+}
+h3{
+	font-size: 11px;
+	margin-bottom: 6px;
+	padding-top: 30px;
+}
+.sever>li li{
+	font-size: 11px;
+	margin-bottom: 6px;
+}
+.sever>li li a{
+	color: #444;
+	display: block;
+}
+.Box a{
+	color: #0068c8;
+}
+.copyright{
+	
+		max-width: 1000px;
+		height: 50px;
+		font-size: 11px;
+		line-height: 50px;
+		color: #959b98;
+		margin: 0 auto;
+
+}
+.xiaozi1{
+	height: 50px;
+	background: #f2f2f2;
+	float: left;
+	font-size: 11px;
+	line-height: 50px;
+	color: #959b98;
+	margin: 0 auto;
+}
+.xiaozi2{
+	height: 30px;
+	font-size: 11px;
+	line-height: 30px;
+	color: #959b98;
+	float: left;
+	margin-left: 20px;
+
+}
+.copyright2{
+
+	height: 12px;
+	float: left;
+	border-right: 1px solid #444;
+	background: #f2f2f2;
+	padding: 0 18px;
+	margin-top: 18px;
+
+}
+.xiaozi2 div:last-child{
+	border: none;
+}
+.copyright2 a{
+	color: #444;
+	height: 12px;
+	display: block;
+	line-height: 12px;
+	
+}
+.last{
+		max-width: 1000px;
+		height: 15px;
+		font-size: 11px;
+		line-height: 15px;
+		color: #959b98;
+		margin: 0 auto;
+}
+.last a{
+	color: #959b98;
+}
+.xiao{
+	display: none;
+}
+
+.jia {
+	float: right;
+	font-size: 20px;
+	margin-right: 15px;
+	color: #8c8c8c;
+	display: none;
+}
+.jia:hover{
+	transform: rotate(45deg);
+	transition: all 0.5s;
+}
+@media screen and (max-width: 769px) {
+	
+	.sever>li ul{
+		display: none;
+	}
+	.Box,.copyright,.last{
+		margin: 0 20px;
+	}
+
+	.sever>li{
+		width: 100%;
+		margin: 0 20px;
+
+
+	}
+
+	.sever{
+		flex-wrap: wrap;
+	}
+	h3{
+		padding: 0;
+		margin: 0;
+		line-height: 50px;
+		border-bottom: 2px solid #444;
+	}
+	.xiaozi2{
+	margin: 0;
+	
+}
+
+.jia{
+		display: block;
+	}
+
+}
