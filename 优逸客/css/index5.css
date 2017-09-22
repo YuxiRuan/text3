@@ -1,0 +1,225 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-07-21 17:16:09
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-07-22 21:59:58
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+:root{
+	background: #f5f6f0;
+}
+.border{
+	width: 100%;
+	height:0.82rem;
+	background: red;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+
+}
+.box{
+	width: 100%;
+	height: 0.82rem;
+	background: #0078e6;
+}
+.box a{
+	width: 0.82rem;
+	height: 0.67rem;
+	background: url('../img/111037.png') no-repeat center center;
+	background-size: 0.5rem 0.5rem;
+	display: block;
+	float: left;
+	margin-left: 2.7rem;
+	margin-top: 0.1rem;
+}
+h3{
+	font-size: 0.26rem;
+	color: white;
+	line-height: 0.92rem;
+	float: left;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: white;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+.navList{
+	width: 90%;
+	height: 0.24rem;
+	background: #f6f5fa;
+	font-size: 0.22rem;
+	line-height: 0.24rem;
+	color: #494747;
+	display: block;
+	margin-top: 0.3rem;
+	margin-left: 0.25rem;
+	margin-bottom: 0.2rem;
+}
+.Box{
+	width: 95%;
+	height: 4.1rem;
+	background: white;
+	margin: 0.3rem auto;
+	position: relative;
+}
+.title{
+	width: 88%;
+	height: 0.7rem;
+	background: white;
+	border-bottom: 0.01rem dashed #f6f5fa;
+	overflow: hidden;
+	margin: 0 auto;
+
+	
+}
+h5{
+	
+	height: 0.26rem;
+	font-size: 0.26rem;
+	text-align: center;
+	border-left: 0.05rem solid #01b5ff;
+	padding-left: 0.1rem;
+	line-height: 0.26rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+
+}
+
+.pic{
+	width: 2.82rem;
+	height: 2.82rem;
+	border-radius: 6%;
+	margin: 0.25rem;
+	float: left;
+}
+.pic img{
+	width: 100%;
+	height: 2.82rem;
+	border-radius: 6%;
+}
+.name{
+	width: 18%;
+	height: 0.55rem;
+	background: white;
+	float: left;
+	margin-top: 0.2rem;
+
+	
+}
+.name h4{
+	font-size: 0.28rem;
+	color: black;
+	text-align: left;
+	line-height: 0.55rem;
+	
+}
+.introduce{
+	width: 50%;
+	height: 2.5rem;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: 0.3rem;
+}
+.jiangshi{
+	width: 20%;
+	height: 0.55rem;
+	background: white;
+	float: left;
+	margin-top: 0.30rem;
+}
+.jiangshi {
+	font-size: 0.2rem;
+	color: #01b5ff;
+	text-align: left;
+}
+h6{
+	
+	font-size: 0.22rem;
+	color: black;
+	float: left;
+	letter-spacing: 0.2rem;
+	margin-bottom: 0.1rem;
+	
+}
+p{	
+	
+	font-size: 0.22rem;
+	color: black;
+	float:left;
+	text-align: right;
+	margin-bottom: 0.1rem;
+	
+	
+}
+.word{
+
+	font-size: 0.22rem;
+	color: black;
+	float:left;
+	text-align: left;
+	margin-bottom: 0.1rem;
+	
+}
+.Box2{
+	width: 95%;
+	height: 4.8rem;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+}
+.intro{
+	width: 95%;
+	height: 1.5rem;
+	background: white;
+	margin: 0 auto;
+	
+}
+.intro2{
+	width: 95%;
+	height: 1.5rem;
+	background: white;
+	
+	margin: 0.5rem auto 0;
+}
+.word2{
+	font-size: 0.22rem;
+	color: #666666;
+	text-align: left;
+}
+footer{
+	width: 100%;
+	height: 1.6rem;
+	background:#f5f6fa;
+	float: left;
+}
+.copyright{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.copyright2{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+}

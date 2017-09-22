@@ -1,0 +1,201 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-07-20 19:48:53
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-07-22 22:12:00
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+:root{
+	background: #f5f6f0;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.border{
+	width: 100%;
+	height:0.82rem;
+	background: red;
+
+}
+.box{
+	width: 100%;
+	height: 0.82rem;
+	background: #0078e6;
+}
+.box a{
+	width: 0.82rem;
+	height: 0.67rem;
+	background: url('../img/111037.png') no-repeat center center;
+	background-size: 0.5rem 0.5rem;
+	display: block;
+	float: left;
+	margin-left: 2.7rem;
+	margin-top: 0.1rem;
+}
+h3{
+	font-size: 0.26rem;
+	color: white;
+	line-height: 0.92rem;
+	float: left;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: white;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.navList{
+	width: 90%;
+	height: 0.24rem;
+	background: #f6f5fa;
+	font-size: 0.22rem;
+	line-height: 0.24rem;
+	color: #494747;
+	display: block;
+	margin-top: 0.3rem;
+	margin-left: 0.25rem;
+	margin-bottom: 0.2rem;
+}
+.Box{
+	width: 95%;
+	height: 8.5rem;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+}
+.title{
+	width: 88%;
+	height: 0.7rem;
+	background: white;
+	border-bottom: 0.01rem dashed #f6f5fa;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+h5{
+	width: 10%;
+	height: 0.26rem;
+	font-size: 0.26rem;
+	text-align: center;
+	border-left: 0.05rem solid #01b5ff;
+	padding-left: 0.1rem;
+	line-height: 0.26rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+
+}
+.about{
+	width: 90%;
+	height: 6.72rem;
+	margin: 0 auto;
+
+}
+p{
+	font-size: 0.24rem;
+	color: #666666;
+	margin-bottom: 0.3rem;
+}
+.box2{
+	width: 95%;
+	height: 3.2rem;
+	background: white;
+	margin: 0.2rem auto;
+	position: relative;
+}
+h6{
+	height: 0.26rem;
+	font-size: 0.26rem;
+	text-align: center;
+	border-left: 0.05rem solid #01b5ff;
+	padding-left: 0.1rem;
+	line-height: 0.26rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+}
+.bag{
+	width: 90%;
+	height: 2rem;
+	margin: 0 auto;
+}
+.kouhao li{
+	width: 30%;
+	height: 2rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-right: 0.3rem;
+}
+.kouhao li:last-child{
+	margin-right: 0;
+}
+.kouhao li img{
+	width: 100%;
+	height: 2rem;
+	display: block;
+}
+.box3{
+	width: 95%;
+	height: 1.42rem;
+	margin: 0 auto 0.2rem;
+	background: white;
+	position: relative;
+	color: #666666;
+}
+.linian{
+	width: 90%;
+	height: 0.26rem;
+	font-size: 0.22rem;
+	line-height: 0.26rem;
+	background: white;
+	margin: 0.2rem auto 0;
+	color: #666666;
+
+}
+.join{
+	width: 25%;
+	height: 1.68rem;
+	background: white;
+	margin: 0.3rem auto 0.3rem;
+}
+.join img{
+	width: 100%;
+	height: 1.68rem;
+	
+}
+footer{
+	width: 100%;
+	height: 1.6rem;
+	background:#f5f6fa;
+	float: left;
+}
+.copyright{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+.copyright2{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+}

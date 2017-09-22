@@ -1,0 +1,252 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-07-20 10:56:50
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-07-22 00:53:31
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.border{
+	width: 100%;
+	height:0.82rem;
+	background: red;
+}
+.box{
+	width: 100%;
+	height: 0.82rem;
+	background: #0078e6;
+}
+.box a{
+	width: 0.82rem;
+	height: 0.67rem;
+	background: url('../img/111037.png') no-repeat center center;
+	background-size: 0.5rem 0.5rem;
+	display: block;
+	float: left;
+	margin-left: 2.7rem;
+	margin-top: 0.1rem;
+}
+h3{
+	font-size: 0.26rem;
+	color: white;
+	line-height: 0.92rem;
+	float: left;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: white;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+.navList{
+	width: 100%;
+	height: 4.82rem;
+	background: #f5f6fa;
+}
+.Box{
+	width: 20%;
+	height: 1.6rem;
+	background: white;
+	border-radius: 10%;
+	float: left;
+	margin-top: 0.3rem ;
+	margin-left: 0.3rem;
+}
+.Box img{
+	width: 100%;
+	height: 1.6rem;
+}
+.Box1{
+	width: 20%;
+	height: 1.6rem;
+	background: white;
+	border-radius: 10%;
+	float: left;
+	margin-top: 0.1rem ;
+	margin-left: 0.3rem;
+}
+.Box1 img{
+	width: 100%;
+	height: 1.6rem;
+}
+.words{
+	width: 20%;
+	height: 0.4rem;
+	background: #f5f6fa;
+	font-size: 0.2rem;
+	color: black;
+	float: left;
+	margin-top: 0.05rem;
+	margin-left: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.service{
+	width: 100%;
+	height: 0.62rem;
+	background: #f5f6fa;
+}
+h4{
+	width: 100%;
+	height: 0.62rem;
+	font-size: 0.24rem;
+	background: white;
+	color: #0377bc;
+	text-align: center;
+	line-height: 0.62rem;
+	display: block;
+}
+.Big{
+	width: 100%;
+	height: 4.0rem;
+	background:#f1f2f6;
+	border-top: 0.01rem solid #f1f2f6;
+}
+.Big li:first-child{
+	width: 50%;
+	height: 2.2rem;
+	background: white;
+	border-bottom: 0.01rem solid #f1f2f6;
+	border-right:  0.01rem solid #f1f2f6;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	
+}
+.Big li:nth-child(2){
+	width: 50%;
+	height: 2.2rem;
+	background: white;
+	float: right;
+	border-bottom: 0.01rem solid #f1f2f6;
+	box-sizing: border-box;
+	position: relative;
+}
+.Big li:nth-child(3),.Big li:nth-child(4),.Big li:nth-child(5){
+	width: 33.333333%;
+	height: 1.4rem;
+	background: white;
+	float: left;
+	border-right: 0.01rem solid #f1f2f6;
+	box-sizing: border-box;
+	position: relative;
+}
+.Big li:nth-child(5){
+	border-right: none;
+}
+h6{
+	
+	font-size: 0.22rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.15rem;
+	
+}
+.Big a h6{
+	color: black;
+}
+.Big li:first-child span,.Big li:nth-child(2) span{
+	width: 50%;
+	font-size: 0.1rem;
+	color: #b0b0b0;
+	display: block;
+	position: absolute;
+	top: 0.75rem;
+	left: 0.15rem;
+
+}
+.Big li:first-child div,.Big li:nth-child(2) div{
+	width: 40%;
+	height: 1.8rem;
+	background: white;
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+}
+.Big li:first-child img,.Big li:nth-child(2) img{
+	width: 100%;
+	height: 1.8rem;
+	background: white;
+	display: block;
+}
+.Big li:nth-child(3) h6,.Big li:nth-child(4) h6,.Big li:nth-child(5) h6{
+	font-size: 0.22rem;
+	position: absolute;
+	top: 0.25rem;
+	left:0.8rem;
+	z-index: 999;
+}
+.Big li:nth-child(3) span,.Big li:nth-child(4) span,.Big li:nth-child(5) span{
+	font-size: 0.1rem;
+	color: #b0b0b0;
+	display: block;
+	position: absolute;
+	top: 0.75rem;
+	left: 0.8rem;
+	z-index: 999;
+}
+.Big li:nth-child(3) div,.Big li:nth-child(4) div,.Big li:nth-child(5) div{
+	width: 25%;
+	height: 0.7rem;
+	background: white;
+	float: left;
+	margin-left: 0.15rem;
+}
+.Big li:nth-child(3) img,.Big li:nth-child(4) img,.Big li:nth-child(5) img{
+	width: 100%;
+	height: 0.7rem;
+}
+footer{
+
+	width: 100%;
+	height: 0.8rem;
+	background: #f5f6fa;
+	float: left;
+	margin-top: 0.4rem;
+}
+footer li:first-child div,footer li:last-child div{
+	width: 33.333333%;
+	height: 0.8rem;
+	background: white;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.8rem;
+	float: left;
+}
+footer li:nth-child(2) div{
+	width: 33.333333%;
+	height: 0.8rem;
+	background: #ff7e00;
+	border-radius: 6%;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.8rem;
+	float: left;
+}
+footer li:first-child a,footer li:last-child a{
+	color: black;
+}
+footer li:nth-child(2) a{
+	color: white;
+	font-weight: bold;
+}
+.end{
+	width: 100%;
+	height: 0.4rem;
+	background: #f5f6f0;
+	float: left;
+}

@@ -1,0 +1,358 @@
+/*
+* @Author: 丑八怪
+* @Date:   2017-07-22 10:34:49
+* @Last Modified by:   丑八怪
+* @Last Modified time: 2017-07-22 20:33:43
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+:root{
+	background: #f5f6f0;
+}
+.border{
+	width: 100%;
+	height:0.82rem;
+	background: red;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+
+}
+.box{
+	width: 100%;
+	height: 0.82rem;
+	background: #0078e6;
+}
+.box a{
+	width: 0.82rem;
+	height: 0.67rem;
+	background: url('../img/111037.png') no-repeat center center;
+	background-size: 0.5rem 0.5rem;
+	display: block;
+	float: left;
+	margin-left: 2.7rem;
+	margin-top: 0.1rem;
+}
+h3{
+	font-size: 0.26rem;
+	color: white;
+	line-height: 0.92rem;
+	float: left;	
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+	background: white;
+}
+.banner img{
+	width: 100%;
+	height: 2.8rem;
+}
+.navList{
+	width: 80%;
+	height: 0.24rem;
+	background: #f6f5fa;
+	font-size: 0.22rem;
+	line-height: 0.24rem;
+	color: #494747;
+	display: block;
+	margin-top: 0.3rem;
+	margin-left: 0.25rem;
+	margin-bottom: 0.2rem;
+}
+.Box{
+	width: 95%;
+	height: 2.5rem;
+	background: white;
+	margin: 0 auto;
+}
+.Box li{
+	width: 20%;
+	height: 1.6rem;
+	background: white;
+	float: left;
+	padding: 0.1rem;
+	margin-left: 0.13rem;
+}
+.Box li img{
+	width:100%;
+	height: 1.6rem;
+	display: block;
+}
+.Box #words li{
+	height: 0.4rem;
+	background: white;
+	float: left;
+	margin-top: 0.1rem;
+}
+.Box #words li a{
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 0.4rem;
+	display: block;
+	text-align: center;	
+}
+.Box2{
+	width: 95%;
+	height: 4.62rem;
+	background: white;
+	margin: 0.15rem auto;
+	position: relative;
+}
+.Box5{
+	width: 95%;
+	height: 4.3rem;
+	background: white;
+	margin: 0.15rem auto;
+	position: relative;
+}
+.title{
+	width: 90%;
+	height: 0.7rem;
+	background: white;
+	border-bottom: 0.01rem dashed #f6f5fa;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.title2{
+	width: 90%;
+	height: 0.7rem;
+	background: white;
+	border-bottom: 0.01rem dashed #f6f5fa;
+	overflow: hidden;
+	margin: 0 auto 0.2rem; 
+}
+h5{
+	
+	height: 0.26rem;
+	font-size: 0.26rem;
+	text-align: center;
+	border-left: 0.05rem solid #01b5ff;
+	padding-left: 0.1rem;
+	line-height: 0.26rem;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.2rem;
+}
+p{
+	margin: 0 auto;
+	width: 95%;
+	font-size: 0.24rem;
+	color: #504c4c;
+}
+.tit{
+	margin-left: 0.2rem;
+	font-size: 0.24rem;
+	color: #01b5ff;
+	font-weight: bold;
+}
+.Box3{
+	width: 95%;
+	height: 5.85rem;
+	background: white;
+	margin: 0.15rem auto;
+	position: relative;
+}
+.pic{
+	width: 100%;
+	height: 5.2rem;
+	background: white;
+	display: block;
+}
+.pic img{
+	width: 100%;
+	height: 5.2rem;
+	
+}
+.pic2{
+	width: 95%;
+	height: 4.5rem;
+	background: white;
+	
+	margin: 0 auto;
+}
+.pic2 img{
+	width: 100%;
+	height: 4.5rem;
+	display: block;
+}
+.Box2 li{
+	width: 95%;
+	height: 0.7rem;
+	background: white;
+	margin: 0 auto;
+}
+.Box4{
+	width: 95%;
+	height: 5.2rem;
+	background: white;
+	margin: 0.15rem auto;
+	position: relative;
+}
+.Box4 li{
+	width: 100%;
+	height: 0.7rem;
+	background: white;
+	margin: 0 auto;
+}
+
+.left{
+	width: 10%;
+	height: 0.63rem;
+	background: white;
+	margin-left: 0.25rem;
+	
+	float: left;
+}
+.left img{
+	width: 100%;
+	height: 0.63rem;
+display: block;	
+}
+.right{
+	width: 85%;
+	height: 0.63rem;
+	background: white;
+	float: right;
+}
+.biaotou{
+	width: 100%;
+	height:0.6rem;
+	background: white;
+}
+.name{
+	height: 0.6rem;
+	font-size: 0.24rem;
+	margin-left: 0.5rem;
+	line-height: 0.6rem;
+	float: left;
+}
+.salary{
+	height: 0.6rem;
+	font-size: 0.24rem;
+	margin-left: 1rem;
+	line-height: 0.6rem;
+	float: left;
+}
+.other{
+	height: 0.6rem;
+	font-size: 0.24rem;
+	margin-right: 1.5rem;
+	line-height: 0.6rem;
+	float: right;
+}
+.box5{
+	width: 100%;
+	height: 2.8rem;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+}
+.box5 li{
+	width: 97%;
+	height: 0.55rem;
+	margin-left: 0.2rem;
+	background: white;
+	border-left: 0.01rem dashed #01b5ff;
+}
+.name1{
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.55rem;
+	margin-left: 0.15rem;
+	color: #666;
+}
+.RMB{
+	font-size: 0.22rem;
+	float: left;
+	line-height: 0.55rem;
+	color: #ffa201;
+	margin-left: 0.2rem;
+}
+.other1{
+	font-size: 0.22rem;
+	float: right;
+	line-height: 0.55rem;
+	margin-right: 0.05rem;
+	color: #666;
+}
+.yuan{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border: 0.05rem solid #94e0ff;
+	box-sizing: border-box;
+	border-radius:50%; 
+	position: absolute;
+	top: 0.15rem;
+	left: 0.15rem;
+}
+.yuan1{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border: 0.05rem solid #94e0ff;
+	box-sizing: border-box;
+	border-radius:50%; 
+	position: absolute;
+	top: 0.7rem;
+	left: 0.15rem;
+}
+.yuan2{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border: 0.05rem solid #94e0ff;
+	box-sizing: border-box;
+	border-radius:50%; 
+	position: absolute;
+	top: 1.3rem;
+	left: 0.15rem;
+}
+.yuan3{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border: 0.05rem solid #94e0ff;
+	box-sizing: border-box;
+	border-radius:50%; 
+	position: absolute;
+	top: 1.9rem;
+	left: 0.15rem;
+}
+.yuan4{
+	width: 0.18rem;
+	height: 0.18rem;
+	background: #01b5ff;
+	border: 0.05rem solid #94e0ff;
+	box-sizing: border-box;
+	border-radius:50%; 
+	position: absolute;
+	top: 2.5rem;
+	left: 0.15rem;
+}
+.copyright{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.copyright2{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.1rem;
+	color: #737373;
+	background: #f5f6fa;
+	text-align: center;
+}
